@@ -1,6 +1,6 @@
 ## Homografia - Arucos👾
 <p align="center">
-  <img style="width: 500px; height: auto;" src="">
+  <img style="width: 700px; height: auto;" src="https://github.com/TatoDesign/Repositorios-Imagenes/blob/main/VisionArtifical/Homografia.png">
 </p>
 Este proyecto creado con python y sus librerias: numpy y cv2, tiene como proposito leer los diferentes codigos arucos para crear una matriz homgrafica y sobreponer un video, ademas si los codigos se acercan demasiado a la camara la escala del video se vera aumentada.
 
@@ -53,7 +53,7 @@ ret, frame_mostrar = mostrar.read() #frame del video
 ```
 - Para aumentar la escala * 5 desde la esquina inferior derecha, debemos multiplicar los puntos respectivos
 <p align="center">
-  <img style="width: 500px; height: auto;" src="">
+  <img style="width: 500px; height: auto;" src="https://github.com/TatoDesign/Repositorios-Imagenes/blob/main/VisionArtifical/Homografia2.png">
 </p>
 
 Con esta imagen entendemos el procedimiento, en `p2` (punto 2) modificamos en el eje `x` en `p3` modicamos el eje `x` y el eje `y` y en `p4` modificamos el eje `y`, ahora debemos de programar esto: 
